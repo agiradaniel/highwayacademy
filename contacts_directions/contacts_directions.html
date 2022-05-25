@@ -1,0 +1,366 @@
+
+
+
+
+<html lang="en">
+  <head>
+  
+  <script src="jquery/jquery.mins.js"></script>
+<script src="jquery/jquery-ui/jquery-ui.js"></script>
+<link href="jquery/jquery-ui/jquery-ui.css" rel="stylesheet">
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+	<link rel='shortcut icon' href='highwaylogo.PNG' type='image/x-icon'>
+	<link rel='icon' href='highwaylogo.PNG' type='image/x-icon'>
+    <title>Directions | Highway Academy</title>
+	
+	<style>
+	 @media only screen and (min-width: 950px) { 
+	.carimg{
+	height:500px
+	}
+	.navbar{
+	height:80px;
+	background-color:#00254E
+	}
+   .nav-item{
+   margin-right:20px
+   }
+	.verytop{
+	height:100px;
+	font-family:proza;
+	background-color:#FFFFF0
+	}
+	.navbar-brand{
+	display:none
+	}
+	
+	.nav-item:hover{
+	border-bottom: 3px solid white;
+	
+	}
+	.intakebay{
+	height:50px;
+	width:85%;
+	background-color:#00254E;
+	margin-top:40px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center
+	}
+	.endsection{
+  height:90px;
+  background-color:#00254E;
+  margin-top:40px
+  
+  }
+  .contactform{
+	  width:30%
+	  
+  }
+  .directions{
+	  
+	  margin-top:40px
+  }
+	.contactarea{
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		margin-top:40px;
+		background-color:#FFFFF0;
+		text-align:center
+	}	
+	.contacts{
+		
+		margin:80px auto
+		
+	}
+	.directions{
+		
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		background-color:#FFFFF0
+	}
+	.directiontext{
+		
+		width:20%;
+		font-family:Noto;
+		font-size:20px;
+		margin-top:100px
+	}
+	.logo{
+		
+		height:96px;
+		width:96px;
+		margin-top:2px;
+		margin-right:20px
+	}
+	.brandarea{
+		display:flex;
+		flex-direction:row;
+		justify-content:center
+		
+	}
+	.brandname{
+		
+		display:flex;
+		flex-direction:column
+	}
+	iframe{
+		
+		margin-left:40px
+	}
+}
+@media only screen and (max-width: 700px) {
+	
+	.navbar-brand{
+	display:block
+	}
+
+	.navbar-nav{
+	text-align:center
+	}
+	
+	.verytop{
+	height:130px;
+	font-family:proza;
+	background-color:#FFFFF0
+	}
+	
+	.intakebay{
+	height:50px;
+	width:85%;
+	background-color:#00254E;
+	margin-top:40px;
+	display:flex;
+	flex-direction:column;
+	text-align:center
+	
+	}
+	 .brandarea{
+	display:flex;
+	flex-direction:row;
+	justify-content:center
+	}
+	.brandname{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	margin-left:-30px
+	}
+	.logo{
+	height:80px;
+	width:80px;
+	margin-top:15px;
+	margin-left:30px
+  }
+	.navbar{
+	background-color:#00254E;
+	margin-bottom:4px;
+	color:white
+	}
+	.navbar-toggler{
+	background-color:white
+	}
+
+   .endsection{
+	height:90px;
+	background-color:#00254E;
+	margin-top:40px
+  
+	}
+  iframe{
+	  width:100%;
+	  height:400px;
+	  
+	  
+  }
+  .directions{
+		
+		margin-top:40px;
+		padding-top:10px;
+		background-color:#FFFFF0
+	}
+	
+	.directiontext{
+		
+		
+		font-family:Helvetica Neue;
+		font-size:20px;
+		margin-bottom:20px
+		
+	}
+	
+	.contactarea{
+		margin-top:40px;
+		text-align:center;
+		background-color:#FFFFF0;
+		padding:10px 0 10px
+	}	
+  
+  
+}
+
+@media only screen and (min-width: 700px) and  (max-width: 950px) {
+
+	.navbar-brand{
+	display:block
+	}
+
+	.navbar-nav{
+	text-align:center
+	}
+	
+	.intakebay{
+	height:50px;
+	width:85%;
+	background-color:#00254E;
+	margin-top:40px;
+	display:flex;
+	flex-direction:column;
+	text-align:center
+	
+	}
+	 .brandarea{
+	display:flex;
+	flex-direction:row;
+	justify-content:center
+	}
+	.brandname{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	margin-left:10px
+	}
+	.logo{
+	height:80px;
+	width:80px;
+	margin-top:15px;
+	margin-left:30px
+  }
+	.navbar{
+	background-color:#00254E;
+	margin-bottom:4px;
+	color:white
+	}
+	.navbar-toggler{
+	background-color:white
+	}
+
+   .endsection{
+	height:90px;
+	background-color:#00254E;
+	margin-top:40px
+  
+	}
+  iframe{
+	  width:100%;
+	  height:400px;
+	  
+	  
+  }
+  .directions{
+		
+		margin-top:40px;
+		padding-top:10px;
+		background-color:#FFFFF0
+	}
+	
+	.directiontext{
+		
+		
+		font-family:Helvetica Neue;
+		font-size:20px;
+		margin-bottom:20px
+		
+	}
+	
+	.contactarea{
+		margin-top:40px;
+		text-align:center;
+		background-color:#FFFFF0;
+		padding:10px 0 10px
+	}	
+  
+  
+}
+
+	</style>
+	
+  </head>
+  <body>
+   
+   <div style="height:10px;background-color:#00254E"></div>
+ <header class="verytop" style="">
+ 
+ <div class="brandarea" >
+ <img src="highwaylogo.PNG" class="logo" onclick="location.assign('https://www.highwayacademy.sc.ke/yusuf/');">
+ <div class="brandname"><h2 style="margin-top:10px;font-weight:bold">HIGHWAY ACADEMY</h2>
+ <h5 class="text-center">Elimu Bora Maisha Bora</h5></div>
+  </div>
+ </header>
+ 
+<nav class="navbar navbar-expand-lg navbar-light ">
+   <a class="navbar-brand text-white" href="#" style="display:none">Navigate</a>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-dark" id="navbarNavAltMarkup">
+    <div class="navbar-nav mx-auto">
+      <a class="nav-item nav-link active text-white" href="#" onclick="location.assign('https://www.highwayacademy.sc.ke/');">Home</a>
+      <a class="nav-item nav-link text-white" href="#" onclick="location.assign('https://www.highwayacademy.sc.ke/aboutus/about.html');">About us</a>
+	  <a class="nav-item nav-link text-white" href="#" onclick="location.assign('https://www.highwayacademy.sc.ke/admission/admission.html');">Admission</a>
+	  <a class="nav-item nav-link text-white" href="contacts&directions.html" );">Contacts & Directions</a>
+      <a class="nav-item nav-link text-white" href="#" onclick="location.assign('https://www.highwayacademy.sc.ke/feestructure/feestructure.html');">Fee structure</a>
+	  <a class="nav-item nav-link text-white" href="#" onclick="location.assign('https://www.highwayacademy.sc.ke/uniform/uniform.html');">Uniform</a>
+      
+    </div>
+  </div>
+</nav>
+    
+	<h2 class="text-center" style="margin-top:40px;font-family:proza;font-weight:bold;font-variant: small-caps">Contacts</h2>
+ 
+<div class="contactarea container">
+<div class="contacts" style="font-family:Noto;">
+<h5>Director</h5>
+<p>0722724331</p>
+<h5>Manager</h5>
+<p>1. 0720793140<br>
+2. 0734599121</p>
+
+</div>
+ 
+  
+
+</div>
+
+<h2 class="text-center" style="margin-top:40px;font-family:proza;font-weight:bold;font-variant: small-caps">Directions</h2>
+   <div class="text-center directions container">
+   <p class="directiontext">The school is located in Kokotoni between Mazeras and Mariakani, 100 metres from the Mombasa-Nairobi Highway opposite Kokotoni health center next to police post</p>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.4897397429636!2d39.522774714759585!3d-3.9188036971497286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwNTUnMDcuNyJTIDM5wrAzMScyOS45IkU!5e0!3m2!1sen!2ske!4v1585820178689!5m2!1sen!2ske" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+	
+	 <footer class="endsection footer">
+<div class="text-center " >
+<p style="position:relative;top:20px" class="text-white">Highway Academy Kokotoni &copy 2020</br>
+Designed by <a href="tel:07117544449" >Agira Technologies</a></p>
+</div>
+</footer>  
+	
+	
+	
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+	
+
+ </body>
+</html>
